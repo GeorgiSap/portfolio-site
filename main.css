@@ -37,7 +37,7 @@ footer {
  	width: 16%;
  }
 
- .header-logo img {
+ .header-logo-image {
  	border-radius: 5px;
  	float: left;
  }
@@ -46,12 +46,12 @@ footer {
  	text-align: right;
  }
 
- .header-title h1 {
+ .header-main-title {
  	font-size: 30px;
  	text-transform: uppercase;
  }
 
- .header-title h3 {
+ .header-subtitle {
  	font-size: 24px;
  }
 
@@ -73,7 +73,7 @@ footer {
  	text-align: right;
  }
 
- .app-listing img {
+ .app-image {
  	border-radius: 15px;
  	margin-right: 10px;
  	max-height:100%;
@@ -81,17 +81,17 @@ footer {
  	float:left;
  }
 
- .app-listing h3 {
+ .app-title {
  	text-transform: uppercase;
  	font-size: 21px;
  }
 
- .app-listing h5 {
+ .app-link {
  	font-size: 16px;
  	margin: 5px 0 5px 5px;
  }
 
- .app-listing p {
+ .app-description {
  	text-align: justify;
  	margin: 10px 0;
  }
@@ -103,20 +103,20 @@ footer {
  */
 
  @media screen and (max-width: 400px) {
- 	.app-listing h5 {
+ 	.app-link {
  		padding-top: 5px;
  		padding-bottom: 5px;
  	}
  }
 
  @media screen and  (min-width: 380px) and (max-width: 600px) {
- 	.app-listing h5 {
+ 	.app-link {
  		display: inline-block;
  	}
  }
 
  @media screen and  (min-width: 750px) and (max-width: 900px) {
- 	.app-listing h5 {
+ 	.app-link {
  		display: inline-block;
  	}
  }
@@ -139,10 +139,10 @@ footer {
  }
 
  @media screen and (max-width: 425px) {
- 	.header-title h1 {
+ 	.header-main-title {
  		font-size: 7vw;
  	}
- 	.header-title h3 {
+ 	.header-subtitle {
  		font-size: 5.4vw;
  	}
  }
