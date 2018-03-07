@@ -65,7 +65,7 @@ footer {
  	width: 100%;
  	display: flex;
  	flex-wrap: wrap;
- 	padding: 10px 0px;
+ 	padding: 10px 0;
  }
 
  .app-listing {
@@ -88,12 +88,12 @@ footer {
 
  .app-listing h5 {
  	font-size: 16px;
- 	margin: 5px 0px 5px 5px;
+ 	margin: 5px 0 5px 5px;
  }
 
  .app-listing p {
  	text-align: justify;
- 	margin: 10px 0px;
+ 	margin: 10px 0;
  }
 
  /*
